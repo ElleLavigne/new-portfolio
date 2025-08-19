@@ -124,3 +124,24 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes shine {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shine {
+  background: linear-gradient(
+    110deg,
+    #f4f4f5 8%,
+    #e4e4e7 18%,
+    #f4f4f5 33%
+  );
+  background-size: 200% 100%;
+  animation: shine 6s linear infinite;
+
+}
