@@ -26,7 +26,7 @@ export function Projects() {
       </motion.div>
       <div className="grid grid-cols-2 gap-11">
         {list.map((project) => (
-          <CardProject project={project} />
+          <CardProject project={project} key={project.id}/>
         ))}
       </div>
     </motion.div>
