@@ -7,7 +7,8 @@ export function Header() {
       <div className="flex gap-6 ">
         <Link
           className="text-zinc-950 font-medium  hover:text-zinc-600"
-          href={""}
+          href={"https://wa.me/5586998244011"}
+          target="blank"
         >
           Contato
         </Link>

@@ -1,4 +1,5 @@
 "use client";
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { SocialMedia } from "@/components/nav-link-social-media";
 import { Projects } from "@/section/projects";
@@ -44,6 +45,7 @@ export default function Home() {
         </div>
         <Projects />
       </div>
+        <Footer/>
     </div>
   );
 }
