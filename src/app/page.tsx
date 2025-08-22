@@ -2,12 +2,13 @@
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { SocialMedia } from "@/components/nav-link-social-media";
+import { AboutMe } from "@/section/about-me";
 import { Projects } from "@/section/projects";
 import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col gap-32">
       <div className="flex flex-col container mx-auto justify-center items-center gap-48">
         <Header />
         <div className="flex flex-col gap-14 ">
@@ -45,7 +46,8 @@ export default function Home() {
         </div>
         <Projects />
       </div>
-        <Footer/>
+      <AboutMe />
+      <Footer />
     </div>
   );
 }

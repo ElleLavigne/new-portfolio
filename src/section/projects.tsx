@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 
 export function Projects() {
   const list = projects;
+
   return (
     <motion.div
       className="flex flex-col container mx-0 justify-center gap-11"
@@ -24,11 +25,21 @@ export function Projects() {
         <h2 className="text-zinc-950 font-medium">Meus Projetos</h2>
         <Separator />
       </motion.div>
+
       <div className="grid grid-cols-2 gap-11">
-        {list.map((project) => (
-          <CardProject project={project} key={project.id}/>
+        {list.map((project, index) => (
+          <motion.div
+            key={project.id}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: index * 0.2 }} 
+            viewport={{ once: true }}
+          >
+            <CardProject project={project} />
+          </motion.div>
         ))}
       </div>
     </motion.div>
   );
 }
+
