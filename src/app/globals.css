@@ -145,3 +145,7 @@ body {
   animation: shine 5s linear infinite;
 
 }
+
+html {
+  scroll-behavior: smooth;
+}

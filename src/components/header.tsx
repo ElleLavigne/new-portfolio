@@ -20,7 +20,7 @@ export function Header() {
         </Link>
         <Link
           className="text-zinc-950 font-medium  hover:text-zinc-600"
-          href={""}
+          href="#sobre-mim"
         >
           Sobre Mim
         </Link>
