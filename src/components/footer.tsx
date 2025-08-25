@@ -35,7 +35,7 @@ export function Footer() {
         </div>
 
         <div className="flex gap-6">
-          <Link href={""}>
+          <Link href={"https://wa.me/5586998244011"}>
             <WhatsappLogo />
           </Link>
 
@@ -43,9 +43,9 @@ export function Footer() {
             <LinkedinLogo />
           </Link>
 
-          <Link href={""}>
+          <a href="mailto:izaelleavrillavigne@gmail.com">
             <Envelope />
-          </Link>
+          </a>
 
           <Link href={"https://github.com/ElleLavigne"}>
             <GithubLogo />

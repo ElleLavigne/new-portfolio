@@ -15,9 +15,9 @@ export default function Home() {
           <div className="flex flex-col max-w-[907px] items-center text-center gap-8">
             <motion.h1
               className="font-medium text-5xl text-zinc-950"
-              initial={{ opacity: 0, y: 30 }} // começa invisível e mais abaixo
-              animate={{ opacity: 1, y: 0 }} // aparece e sobe
-              transition={{ duration: 0.8, delay: 0.2 }} // duração e atraso
+              initial={{ opacity: 0, y: 30 }} 
+              animate={{ opacity: 1, y: 0 }} 
+              transition={{ duration: 0.8, delay: 0.2 }} 
             >
               Olá, sou a Izaelle Lavigne, frontend e UI Design
             </motion.h1>

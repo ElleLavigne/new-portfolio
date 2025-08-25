@@ -20,7 +20,7 @@ export function AboutMe() {
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <h3 className="text-2xl font text-zinc-950">Sobre Mim</h3>
+        <h3 className="text-zinc-950 font-medium">Sobre Mim</h3>
         <Separator />
       </motion.div>
 

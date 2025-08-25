@@ -12,33 +12,34 @@ import {
 export function SocialMedia() {
   return (
     <div className="flex gap-8 items-center justify-center">
-      <Link href={"www.linkedin.com/in/izaelle-lavigne-18a62427a"}>
-        <Button className="shine text-zinc-950 hover:bg-zinc-200 rounded-3xl flex gap-2 items-center cursor-pointer">
-          <LinkedinLogo size={20} />
-          LinkedIn
-        </Button>
-      </Link>
+  <Link href="https://www.linkedin.com/in/izaelle-lavigne-18a62427a" target="_blank">
+  <Button className="shine text-zinc-950 hover:bg-zinc-200 rounded-3xl flex gap-2 items-center cursor-pointer transition-transform duration-200 hover:scale-105">
+    <LinkedinLogo size={20} />
+    LinkedIn
+  </Button>
+</Link>
 
-      <Link href={"https://wa.me/5586998244011"}>
-        <Button className="shine text-zinc-950 hover:bg-zinc-200 rounded-3xl flex gap-2 items-center cursor-pointer">
-          <WhatsappLogo size={20} />
-          Whatsapp
-        </Button>
-      </Link>
+<Link href="https://wa.me/5586998244011" target="_blank">
+  <Button className="shine text-zinc-950 hover:bg-zinc-200 rounded-3xl flex gap-2 items-center cursor-pointer transition-transform duration-200 hover:scale-105">
+    <WhatsappLogo size={20} />
+    Whatsapp
+  </Button>
+</Link>
 
-      <Link href="mailto:izaelleavrillavigne@gmail.com">
-        <Button className="shine text-zinc-950 hover:bg-zinc-200 rounded-3xl flex gap-2 items-center cursor-pointer">
-          <Envelope size={20} />
-          Email
-        </Button>
-      </Link>
+<Link href="mailto:izaelleavrillavigne@gmail.com">
+  <Button className="shine text-zinc-950 hover:bg-zinc-200 rounded-3xl flex gap-2 items-center cursor-pointer transition-transform duration-200 hover:scale-105">
+    <Envelope size={20} />
+    Email
+  </Button>
+</Link>
 
-      <Link href={"https://github.com/ElleLavigne"}>
-        <Button className="shine text-zinc-950 hover:bg-zinc-200 rounded-3xl flex gap-2 items-center cursor-pointer">
-          <GithubLogo size={20} />
-          Github
-        </Button>
-      </Link>
+<Link href="https://github.com/ElleLavigne" target="_blank">
+  <Button className="shine text-zinc-950 hover:bg-zinc-200 rounded-3xl flex gap-2 items-center cursor-pointer transition-transform duration-200 hover:scale-105">
+    <GithubLogo size={20} />
+    Github
+  </Button>
+</Link>
+
     </div>
   );
 }
