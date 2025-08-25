@@ -14,7 +14,9 @@ export function Header() {
         </Link>
         <Link
           className="text-zinc-950 font-medium  hover:text-zinc-600"
-          href={""}
+          href={
+            "https://drive.google.com/file/d/1ZDJpCRtSl8zbq6Xk1axdgspPkYwWBCAM/view?usp=sharing"
+          }
         >
           Currículo
         </Link>
