@@ -10,15 +10,15 @@ import { Separator } from "./ui/separator";
 export function Footer() {
   return (
     <footer className="bg-zinc-100 flex flex-col ">
-      <div className="container flex pt-8  pb-16 justify-between mx-auto">
-        <div className="flex flex-col gap-1">
+      <div className="container flex flex-col pt-8  pb-16 justify-between mx-auto items-center md:flex-row">
+        <div className="flex-col gap-1 hidden md:flex">
           <h4 className="text-zinc-950 font-medium">Izaelle Lavigne</h4>
           <p className="text-zinc-400 text-[14px]">
             UI Design e Desenvolvedora Frontend
           </p>
         </div>
 
-        <div className="flex gap-6 ">
+        <div className="flex gap-4 md:gap-6 ">
           <Link
             className="text-zinc-950 font-medium  hover:text-zinc-600"
             href={"https://wa.me/5586998244011"}
@@ -36,7 +36,7 @@ export function Footer() {
           </Link>
         </div>
 
-        <div className="flex gap-6">
+        <div className="flex gap-4 md:gap-6">
           <Link href={"https://wa.me/5586998244011"}>
             <WhatsappLogo />
           </Link>

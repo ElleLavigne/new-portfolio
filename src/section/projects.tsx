@@ -26,7 +26,7 @@ export function Projects() {
         <Separator />
       </motion.div>
 
-      <div className="grid grid-cols-2 gap-11">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-11">
         {list.map((project, index) => (
           <motion.div
             key={project.id}

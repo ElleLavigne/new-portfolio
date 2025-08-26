@@ -26,7 +26,7 @@ export function AboutMe() {
       </motion.div>
 
       <motion.div
-        className="flex gap-16 justify-center items-center"
+        className="flex gap-2 justify-center items-center md:gap-16 "
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, delay: 0.3 }}
@@ -44,7 +44,7 @@ export function AboutMe() {
             width={360}
             height={360}
             src={"/eu.png"}
-            className="rounded-full shadow-lg"
+            className="rounded-full shadow-lg hidden lg:block"
           />
         </motion.div>
 

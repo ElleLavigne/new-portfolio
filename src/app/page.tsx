@@ -8,16 +8,16 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-32">
-      <div className="flex flex-col container mx-auto justify-center items-center gap-48">
+    <div className="flex flex-col gap-16 justify-center lg:justify-start md:gap-32">
+      <div className="flex flex-col container mx-auto justify-center items-center gap-24 px-2 md:gap-48">
         <Header />
         <div className="flex flex-col gap-14 ">
           <div className="flex flex-col max-w-[907px] items-center text-center gap-8">
             <motion.h1
-              className="font-medium text-5xl text-zinc-950"
-              initial={{ opacity: 0, y: 30 }} 
-              animate={{ opacity: 1, y: 0 }} 
-              transition={{ duration: 0.8, delay: 0.2 }} 
+              className="font-medium text-2xl lg:text-5xl text-zinc-950 "
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
             >
               Olá, sou a Izaelle Lavigne, frontend e UI Design
             </motion.h1>
