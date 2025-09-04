@@ -15,7 +15,7 @@ export function Header() {
         <Link
           className="text-zinc-950 font-medium  hover:text-zinc-600"
           href={
-            "https://drive.google.com/file/d/1ZDJpCRtSl8zbq6Xk1axdgspPkYwWBCAM/view?usp=sharing"
+            "https://docs.google.com/document/d/1IX5xxU9_dcx7bBiQ7PiuuCC12WGDEx4qr3pGuxV3oqA/edit?usp=sharing"
           }
         >
           Currículo
